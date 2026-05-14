@@ -15,14 +15,11 @@ This repository allows you to export a Linux container's graphical desktop envir
 - A Google Cloud project with billing enabled.
 
 ## Quick Start
-1. Authenticate with Google Cloud:
-   ```bash
-   gcloud auth login
-   gcloud config set project YOUR_PROJECT_ID
+1. In Google Cloud Console, open the Cloud Shell
+2. Clone this repository:
+   ```git clone https://github.com/tstaerk/linux-in-a-browser
+      cd linux-in-a-browser
+   ```   
+4. Run the setup script:
+   ```bash setup.sh
    ```
-2. Run the setup script:
-   ```bash
-   chmod +x setup.sh
-   ./setup.sh
-   ```
-# linux-in-a-browser
