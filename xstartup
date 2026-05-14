@@ -1,0 +1,4 @@
+#!/bin/bash
+export DISPLAY=:1
+# Simple start, background is now handled by the config file
+startxfce4
