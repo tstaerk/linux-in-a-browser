@@ -15,6 +15,4 @@ gcloud run deploy "$SERVICE_NAME" \
     --region "$REGION" \
     --memory "$MEMORY" \
     --timeout "$TIMEOUT" \
-    --allow-unauthenticated
-
-echo "Done! Your noVNC instance should be available at the URL provided above."
+    --allow-unauthenticated && echo "Done! Your noVNC instance should be available at the URL provided above."
