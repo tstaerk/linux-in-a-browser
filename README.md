@@ -2,6 +2,8 @@
 
 This repository allows you to export a Linux container's graphical desktop environment to a browser. It contains a Dockerized noVNC environment running Ubuntu 24.04, XFCE4, and Google Chrome. It is designed to be deployed to Google Cloud Run.
 
+<img width="1169" height="950" alt="Screenshot 2026-05-02 142710" src="https://github.com/user-attachments/assets/54577ac5-2691-48ec-ba84-3e3824a8bcb3" />
+
 ## Files
 - `Dockerfile`: Sets up Ubuntu, XFCE, noVNC, and Chrome.
 - `start.sh`: Entrypoint script to start Xvnc, XFCE, and the noVNC proxy.
