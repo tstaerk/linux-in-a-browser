@@ -1,6 +1,6 @@
 # noVNC with Chrome on Cloud Run
 
-This repository contains a Dockerized noVNC environment running Ubuntu 24.04, XFCE4, and Google Chrome. It is designed to be deployed to Google Cloud Run.
+This repository allows you to export a Linux container's graphical desktop environment to a browser. It contains a Dockerized noVNC environment running Ubuntu 24.04, XFCE4, and Google Chrome. It is designed to be deployed to Google Cloud Run.
 
 ## Files
 - `Dockerfile`: Sets up Ubuntu, XFCE, noVNC, and Chrome.
