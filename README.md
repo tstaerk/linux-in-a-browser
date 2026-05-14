@@ -17,9 +17,11 @@ This repository allows you to export a Linux container's graphical desktop envir
 ## Quick Start
 1. In Google Cloud Console, open the Cloud Shell
 2. Clone this repository:
-   ```git clone https://github.com/tstaerk/linux-in-a-browser
-      cd linux-in-a-browser
+   ```
+   git clone https://github.com/tstaerk/linux-in-a-browser
+   cd linux-in-a-browser
    ```   
 4. Run the setup script:
-   ```bash setup.sh
+   ```
+   bash setup.sh
    ```
