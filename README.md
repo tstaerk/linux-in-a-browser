@@ -14,6 +14,8 @@ This repository allows you to export a Linux container's graphical desktop envir
    ```
    bash setup.sh
    ```
+4. Give the role IAP-secured Web App User to all users who shall be allowed to use this. Or allow public access: console.cloud.google.com -> Cloud Run -> Overview -> novnc-chrome -> security -> allow public access
+5. Surf to the service URL, find it under console.cloud.google.com -> Cloud Run -> Overview -> novnc-chrome -> URL. It will be something like https://novnc-chrome-84257783069.us-central1.run.app
 
 ## Five Reasons Why You Need a Linux Browser-Tab
 - `Seamless Continuity`: Start a task at the office, close your laptop, and pick up exactly where you left off at home.
