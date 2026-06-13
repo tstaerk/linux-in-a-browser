@@ -1,7 +1,7 @@
 #!/bin/bash
 # setup.sh - Build and deploy to Cloud Run with requested specs
 
-SERVICE_NAME="novnc-chrome"
+SERVICE_NAME="linux-in-browser"
 REGION="us-central1"
 MEMORY="2Gi"
 TIMEOUT="3600"
