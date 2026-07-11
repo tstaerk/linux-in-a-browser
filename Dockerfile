@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y \
     websockify \
     dbus \
     dbus-x11 \
+    mesa-utils \
     x11-xserver-utils \
     xauth \
     xfonts-base \
