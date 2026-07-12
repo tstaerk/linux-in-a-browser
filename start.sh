@@ -65,6 +65,8 @@ gsettings set org.mate.background picture-options "zoom"
 gsettings set org.mate.background color-shading-type "solid"
 gsettings set org.mate.background primary-color "#000000"
 
+gsettings set org.mate.interface icon-theme 'Papirus'
+
 gsettings set org.mate.Marco.general compositing-manager false
 # Run xstartup script manually
 /root/.vnc/xstartup &
