@@ -78,10 +78,10 @@ cat <<EOF > /usr/share/novnc/index.html
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="refresh" content="0; url=vnc.html?resize=scale&autoconnect=true">
+    <meta http-equiv="refresh" content="0; url=vnc.html?resize=remote&autoconnect=true">
 </head>
 <body>
-    <p>Redirecting to <a href="vnc.html?resize=scale&autoconnect=true">vnc.html?resize=scale&autoconnect=true</a>...</p>
+    <p>Redirecting to <a href="vnc.html?resize=scale&autoconnect=true">vnc.html?resize=remote&autoconnect=true</a>...</p>
 </body>
 </html>
 EOF
