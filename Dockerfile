@@ -34,6 +34,7 @@ RUN apt-get update && apt-get install -y \
     procps \
     vim \
     papirus-icon-theme \
+    arc-theme \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
