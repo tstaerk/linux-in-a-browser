@@ -32,6 +32,8 @@ RUN apt-get update && apt-get install -y \
     gnupg \
     feh \
     procps \
+    vim \
+    papirus-icon-theme \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
