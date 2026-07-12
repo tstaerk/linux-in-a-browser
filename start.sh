@@ -58,10 +58,12 @@ echo "=== STARTING MATE DESKTOP ==="
 # MATE 1.26 declares a dock as required but leaves its provider empty.
 gsettings set org.mate.session required-components-list \
   "['windowmanager', 'panel', 'filemanager']"
-gsettings set org.mate.panel default-layout 'default'
-gsettings set org.mate.background picture-filename \
-  '/usr/share/backgrounds/cloudstation-wallpaper.png'
-gsettings set org.mate.background picture-options 'zoom'
+
+gsettings set org.mate.background color-shading-type "vertical-gradient"
+gsettings set org.mate.background primary-color "#6D94BF"
+gsettings set org.mate.background secondary-color "#F4F7FB"
+gsettings set org.mate.background draw-background true
+
 gsettings set org.mate.Marco.general compositing-manager false
 # Run xstartup script manually
 /root/.vnc/xstartup &
