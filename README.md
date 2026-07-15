@@ -1,7 +1,8 @@
 # Run your graphical Linux Desktop in a browser
-This repository allows you to export a Linux container's graphical desktop environment to a browser. It contains a Dockerized noVNC environment running Ubuntu 24.04, XFCE4, and Google Chrome. It is designed to be deployed to Google Cloud Run.
+This repository allows you to export a Linux container's graphical desktop environment to a browser. It contains a Dockerized noVNC environment running Ubuntu 24.04, MATE, and Google Chrome. It is designed to be deployed to Google Cloud Run.
 
-<img width=50% alt="Graphical Linux Desktop in a Browser" src="https://github.com/user-attachments/assets/de10d596-ec8c-4324-a9bd-c3c6f7d60c8a" />
+<img width="634" height="400" alt="Screenshot 2026-07-15 195012" src="https://github.com/user-attachments/assets/579fa1f4-3592-4ae1-b3bd-74ea89a310d1" />
+
 
 ## Quick Start
 1. In Google Cloud Console, open the Cloud Shell
