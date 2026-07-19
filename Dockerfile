@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -y \
     xfonts-75dpi \
     xfonts-100dpi \
     wget \
-    curl \
+    conky-all \
     openssh-client \
     iputils-ping \
     gnupg \
@@ -69,7 +69,7 @@ RUN mkdir -p /opt/scripts
 
 COPY xstartup /root/.vnc/xstartup
 COPY start.sh /opt/scripts/start.sh
-COPY prieros.jpg /usr/share/backgrounds/prieros.jpg
+COPY conky.conf /etc/conky/
 COPY cloudstation-background.png /usr/share/backgrounds/
 COPY cloudstation-wallpaper.png /usr/share/backgrounds/
 COPY chrome.desktop terminal.desktop /root/Desktop/
