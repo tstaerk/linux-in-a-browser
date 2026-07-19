@@ -16,8 +16,8 @@ It combines Ubuntu 24.04, MATE, Google Chrome, TigerVNC and noVNC into a ready-t
 1. In Google Cloud Console, open the Cloud Shell
 2. Clone this repository:
    ```
-   git clone https://github.com/tstaerk/linux-in-a-browser
-   cd linux-in-a-browser
+   git clone https://github.com/tstaerk/cloudstation
+   cd cloudstation
    ```   
 3. Run the setup script:
    ```
