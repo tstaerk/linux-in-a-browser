@@ -2,13 +2,11 @@
 
 ### Your Linux is just a URL away.
 
-Run a complete Ubuntu desktop in any modern browser.
-No installation. No virtual machine.
-Deploy it to Google Cloud Run in minutes.
+CloudStation is a graphical Linux desktop that runs in your browser.
 
 <img width="634" height="400" alt="Screenshot 2026-07-15 195012" src="https://github.com/user-attachments/assets/579fa1f4-3592-4ae1-b3bd-74ea89a310d1" />
-
-CloudStation is a graphical Linux desktop that runs in your browser.
+No installation. No virtual machine.
+Deploy it to Google Cloud Run in minutes.
 
 It combines Ubuntu 24.04, MATE, Google Chrome, TigerVNC and noVNC into a ready-to-deploy desktop that runs on Google Cloud Run.
 
