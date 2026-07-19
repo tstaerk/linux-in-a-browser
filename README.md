@@ -29,8 +29,8 @@ It combines Ubuntu 24.04, MATE, Google Chrome, TigerVNC and noVNC into a ready-t
    ```
    bash setup.sh
    ```
-4. Give the role IAP-secured Web App User to all users who shall be allowed to use this. Or allow public access: console.cloud.google.com -> Cloud Run -> Overview -> novnc-chrome -> security -> allow public access
-5. Surf to the service URL, find it under console.cloud.google.com -> Cloud Run -> Overview -> novnc-chrome -> URL. It will be something like https://novnc-chrome-84257783069.us-central1.run.app
+4. Give the role IAP-secured Web App User to all users who shall be allowed to use this. Or allow public access: console.cloud.google.com -> Cloud Run -> Overview -> cloudstation -> security -> allow public access
+5. Surf to the service URL, find it under console.cloud.google.com -> Cloud Run -> Overview -> cloudstation -> URL. It will be something like https://cloudstation-84257783069.us-central1.run.app
 
 ## Bastion Host
 To use your container environment as a bastion host aka jump server, I recommend you use Direct VPC Egress. When your service is running, click on it -> Edit and Deploy new revision -> Networking -> Connect to a VPC for outbount traffic -> Send traffic directly to a VPC. Afterwards, you can set the respective firewall rules. Then, you will be able to ping the VMs in your project's VPC!!!
