@@ -75,7 +75,6 @@ COPY cloudstation-background.png /usr/share/backgrounds/
 COPY cloudstation-wallpaper.png /usr/share/backgrounds/
 COPY chrome.desktop terminal.desktop /root/Desktop/
 COPY cloudstation-192x192.png /usr/share/novnc/app/images/icons
-COPY cloudstation-128x128.png /usr/share/novnc/app/images/icons
 
 RUN chmod +x /root/.vnc/xstartup \
  && chmod +x /opt/scripts/start.sh \
