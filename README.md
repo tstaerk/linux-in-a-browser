@@ -8,7 +8,7 @@ Deploy it to Google Cloud Run in minutes.
 
 <img width="634" height="400" alt="Screenshot 2026-07-15 195012" src="https://github.com/user-attachments/assets/579fa1f4-3592-4ae1-b3bd-74ea89a310d1" />
 
-CloudStation turns a Linux container into a complete browser-accessible workstation.
+CloudStation is a graphical Linux desktop that runs in your browser.
 
 It combines Ubuntu 24.04, MATE, Google Chrome, TigerVNC and noVNC into a ready-to-deploy desktop that runs on Google Cloud Run.
 
